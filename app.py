@@ -31,7 +31,7 @@ model_params = {
     },
     "birth_rate_sheep": {
         "type": "SliderInt",
-        "value": 7,
+        "value": 6,
         "label": "Sheep Reproduction Threshold",
         "min": 0,
         "max": 9,
@@ -39,7 +39,7 @@ model_params = {
     },
     "birth_rate_wolf": {
         "type": "SliderInt",
-        "value": 7,
+        "value": 5,
         "label": "Wolf Reproduction Threshold",
         "min": 0,
         "max": 9,
