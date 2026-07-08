@@ -10,8 +10,13 @@ There are 3 agents:
 They eat each other the way you'd expect: wolf -> sheep -> grass. The simulation runs for a set number of steps and produces the classic Lotka-Volterra style graph.
  
 For most of the property understanding and analysis, the dataframe + graph gives good enough visualization, and that's what I used for debugging.
+
+![population graph](results/img1.png)
  
 There's also an animated visualization (`app.py`) using Mesa's newer Solara framework, if you want to actually watch the agents move around.
+
+![overview](results/img2.png)
+> this is how it looks, i will add a gif later
  
 ## Notes from building this (it's a learning project, so keeping these here)
  
@@ -24,4 +29,4 @@ There's also an animated visualization (`app.py`) using Mesa's newer Solara fram
 ## Running it
  
 - `wolf_sheep_model.py` runs the simulation and shows the population graph at the end.
-- `app.py` runs the animated Solara visualization with sliders for population and reproduction thresholds.
+- `solara run app.py` command runs the animated Solara visualization with sliders for population and reproduction thresholds.
