@@ -13,7 +13,7 @@ For most of the property understanding and analysis, the dataframe + graph gives
  
 There's also an animated visualization (`app.py`) using Mesa's newer Solara framework, if you want to actually watch the agents move around.
  
-## Notes from building this ( it's a learning project, so keeping these here)
+## Notes from building this (it's a learning project, so keeping these here)
  
 - There are two Wolf classes in the code (one inherited from Sheep, one standalone). Both work fine. I originally used the inherited one, and at some point while debugging I wondered if that was causing issues (it wasn't), so I rewrote a separate standalone Wolf class anyway.
 - I underestimated how much tuning it takes to keep the system balanced. It's surprisingly easy for the agents to go extinct (probably because there are 3 species instead of 2).

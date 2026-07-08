@@ -15,10 +15,10 @@ def agent_portrayal(agent):
 model_params = {
     "initial_sheep_population": {
         "type": "SliderInt",
-        "value": 80,
+        "value": 100,
         "label": "Initial Sheep Population",
         "min": 0,
-        "max": 300,
+        "max": 200,
         "step": 1,
     },
     "initial_wolf_population": {
@@ -26,7 +26,7 @@ model_params = {
         "value": 20,
         "label": "Initial Wolf Population",
         "min": 0,
-        "max": 300,
+        "max": 100,
         "step": 1,
     },
     "birth_rate_sheep": {
